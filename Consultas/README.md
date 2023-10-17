@@ -46,8 +46,6 @@
 
 ### 12. Obtener el precio medio de los productos  de cada frabricante, mostrando solo los codigos de fabricante.
 
-SELECT codigo_fab. AVG (Precio) as Precio FROM Articulo GROUP BY codigo_fab;
-
 ![Fabricante_codigos](fabricante_codigos.png "Fabricante_codigos")
 
 ### 13. Obtener el precio medio de los productos de cada fabricante, mostrando el nombre del fabricante.
